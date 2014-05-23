@@ -1,0 +1,26 @@
+{
+  "name": "anotheriso",
+  "version": "0.0.1",
+  "description": "Another attempt at an isometric game engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ash Kyd <ash@kyd.com.au>",
+  "license": "BSD",
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-uglify": "~0.3.0",
+    "gulp-less": "~1.2.3",
+    "gulp-connect": "~2.0.5",
+    "gulp-browserify": "~0.5.0",
+    "underscore": "~1.6.0",
+    "gulp-util": "~2.2.14",
+    "fractal-terrain-generator": "0.0.2"
+  },
+  "dependencies": {
+    "pixi.js": "git+ssh://git@github.com:GoodBoyDigital/pixi.js.git",
+    "promise": "~5.0.0",
+    "cannon": "~0.5.0"
+  }
+}
